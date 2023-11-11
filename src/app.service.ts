@@ -2,7 +2,7 @@ import { Injectable, Inject } from '@nestjs/common';
 import { ConfigType } from '@nestjs/config';
 import { Db } from 'mongodb';
 
-import config from 'config';
+import config from './config';
 
 @Injectable()
 export class AppService {
